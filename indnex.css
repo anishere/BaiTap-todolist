@@ -116,4 +116,13 @@ body {
     background-color: green;
   }
 
+  #delAll-btn {
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
 

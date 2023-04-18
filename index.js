@@ -1,6 +1,7 @@
 let todoInput = document.getElementById('todo-input')
 let addBtn = document.getElementById('add-btn')
 let list = document.getElementById('list')
+let delAllBtn = document.getElementById('delAll-btn')
 
 addBtn.addEventListener('click',function() {
     let newItem = document.createElement('li')
@@ -44,4 +45,8 @@ addBtn.addEventListener('click',function() {
     newItem.appendChild(deleteBtn)
     list.appendChild(newItem)
     todoInput.value = ''
+})
+
+delAllBtn.addEventListener('click',function() {
+    list.innerHTML = ''
 })
