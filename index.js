@@ -28,6 +28,7 @@ addBtn.addEventListener('click',function() {
     saveBtn.style.display = 'none'
     saveBtn.addEventListener('click',function() {
         itemText.innerText = inputEdit.value
+        editBtn.style.display = 'inline-block'
         saveBtn.style.display = 'none'
         inputEdit.style.display = 'none'
         itemText.style.display = 'inline-block'
