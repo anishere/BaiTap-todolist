@@ -17,6 +17,7 @@ addBtn.addEventListener('click',function() {
     editBtn.addEventListener('click',function() {
         inputEdit.value = itemText.innerText
         itemText.style.display = 'none'
+        editBtn.style.display = 'none'
         inputEdit.style.display = 'inline-block'
         saveBtn.style.display = 'inline-block'
     })
